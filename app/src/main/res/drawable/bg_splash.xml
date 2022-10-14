@@ -3,9 +3,9 @@
     <item>
         <color android:color="@color/main" />
     </item>
-    <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/logo_with_name" />
-    </item>
+    <item
+        android:width="140dp"
+        android:height="121dp"
+        android:drawable="@drawable/logo_with_name"
+        android:gravity="center" />
 </layer-list>
