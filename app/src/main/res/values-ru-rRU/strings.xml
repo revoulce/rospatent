@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Роспатент: Поиск Патентов</string>
+    <string name="app_name_short">Роспатент.</string>
+    <string name="search_field_desc">Поле для поиска патентов</string>
+    <string name="search_field_clear">Очистить поле поиска</string>
+</resources>
