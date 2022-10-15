@@ -5,7 +5,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
-import ru.gov.rospatent.searchplatform.*
+import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 
 private val LightColors = lightColorScheme(
@@ -73,11 +73,15 @@ private val DarkColors = darkColorScheme(
 fun RospatentTheme(
     useDarkTheme: Boolean = isSystemInDarkTheme(), content: @Composable() () -> Unit
 ) {
+    val systemUiController = rememberSystemUiController()
+
     val colors = if (!useDarkTheme) {
         LightColors
     } else {
         DarkColors
     }
+
+    systemUiController.setSystemBarsColor(color = colors.surface)
 
     MaterialTheme(
         colorScheme = colors, content = content
