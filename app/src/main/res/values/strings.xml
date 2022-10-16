@@ -3,4 +3,5 @@
     <string name="app_name_short">Rospatent.</string>
     <string name="search_field_desc">Field to search patents</string>
     <string name="search_field_clear">Clear search field</string>
+    <string name="no_patents">Search returned no results</string>
 </resources>
