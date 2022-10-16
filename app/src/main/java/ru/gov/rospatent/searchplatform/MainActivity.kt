@@ -147,9 +147,7 @@ fun SearchField(
     )
 }
 
-fun searchPatents(
-    searchString: String, result: SnapshotStateList<Hit>
-) {
+fun searchPatents(searchString: String, result: SnapshotStateList<Hit>) {
     val url = "https://searchplatform.rospatent.gov.ru/patsearch/v0.2/"
 
     val retrofit =
@@ -170,6 +168,7 @@ fun searchPatents(
             Log.i("API", resp)
 
             if (model != null) {
+                result.clear()
                 result.addAll(model.hits)
             }
         }
