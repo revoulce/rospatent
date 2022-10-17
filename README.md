@@ -1,3 +1,3 @@
 # Приложение для поиска патентов с использованием Роспатент API
 
-https://github.com/revoulce/rospatent/blob/master/video/demonstration.mp4
+https://user-images.githubusercontent.com/54038231/196085946-610b22b1-9fea-4ee4-aea6-2761b7ef5519.mp4
