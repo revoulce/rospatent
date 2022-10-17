@@ -5,4 +5,14 @@
     <string name="search_field_desc">Поле для поиска патентов</string>
     <string name="search_field_clear">Очистить поле поиска</string>
     <string name="no_patents">Поиск не вернул никаких результатов</string>
+    <string name="ic_document">Иконка документа</string>
+    <string name="ic_filter">Фильтр результатов поиска</string>
+    <string name="ic_back">Вернуться</string>
+    <string name="det_application_number">Номер заявки:</string>
+    <string name="det_published">Опубликовано:</string>
+    <string name="det_application_date">Дата подачи заявки:</string>
+    <string name="det_ipc">МПК:</string>
+    <string name="det_priority_data">Приоритетные данные:</string>
+    <string name="det_patent_holders">Патентообладатели:</string>
+    <string name="det_description">Описание:</string>
 </resources>

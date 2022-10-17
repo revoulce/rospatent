@@ -4,4 +4,14 @@
     <string name="search_field_desc">Field to search patents</string>
     <string name="search_field_clear">Clear search field</string>
     <string name="no_patents">Search returned no results</string>
+    <string name="ic_document">Document icon</string>
+    <string name="ic_filter">Filter search results</string>
+    <string name="ic_back">Return</string>
+    <string name="det_application_number">Application Number:</string>
+    <string name="det_published">Published:</string>
+    <string name="det_application_date">Application Date:</string>
+    <string name="det_ipc">IPC:</string>
+    <string name="det_priority_data">Priority data:</string>
+    <string name="det_patent_holders">Patent holders:</string>
+    <string name="det_description">Description:</string>
 </resources>
